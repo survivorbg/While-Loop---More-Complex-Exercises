@@ -8,7 +8,7 @@ namespace _03._Stream_Of_Letters
         private static void Main(string[] args)
         {
 
-
+            //all symbols which are not letters from english alphabet are ignored.
             //every first 'c','o','n' will count but not be shown in the phrase.
             //every second,third etc. c,o,n will be shown.
             //the word will be shown only if we have at least 1xO , 1xC and 1xN and new word starts. The counts of c,o,n reset and upper rules are valid again.
